@@ -1,0 +1,11 @@
+node_modules/
+.pnpm-store/
+.next/
+.vercel/
+.env*
+!.env.example
+*.tsbuildinfo
+next-env.d.ts
+test-results/
+playwright-report/
+.DS_Store
