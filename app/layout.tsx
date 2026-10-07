@@ -3,6 +3,7 @@ import localFont from "next/font/local";
 import { GoogleAnalytics } from "@next/third-parties/google";
 import { Analytics } from "@vercel/analytics/next";
 import { SpeedInsights } from "@vercel/speed-insights/next";
+import { QrCodeDialog } from "@/components/qr-code-dialog";
 import { SITE_DESCRIPTION, SITE_TITLE, SITE_URL } from "@/lib/site";
 import "./globals.css";
 
@@ -44,6 +45,7 @@ export default function RootLayout({ children }: Readonly<{ children: React.Reac
     <html lang="en" className={`${sans.variable} ${mono.variable}`}>
       <body>
         {children}
+        <QrCodeDialog />
         <Analytics />
         <SpeedInsights />
       </body>
