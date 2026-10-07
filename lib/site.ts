@@ -5,3 +5,4 @@ export const SITE_DESCRIPTION =
 export const EXPLAINER_URL = "https://github.com/kenzic/web-models-api-explainer";
 export const API_REFERENCE_URL = `${EXPLAINER_URL}/blob/main/api-reference.md`;
 export const DISCUSSION_URL = "https://github.com/WICG/proposals/issues/306";
+export const QR_CODE_URL = "https://www.webmodels.dev";

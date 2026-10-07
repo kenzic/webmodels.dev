@@ -193,6 +193,16 @@ h2 { font-size: clamp(36px, 3.85vw, 58px); line-height: 1.08; font-weight: 500; 
 .share-fallback-actions { display: flex; justify-content: space-between; gap: 12px; margin-top: 12px; }
 .share-fallback-actions button { background: transparent; color: var(--indigo); border: none; padding: 4px 0; font-size: 14px; text-decoration: underline; text-underline-offset: 3px; }
 .share-section .share-fallback { left: 50%; transform: translateX(-50%); }
+.qr-dialog { width: min(360px, calc(100vw - 32px)); margin: auto; padding: 0; background: var(--panel); color: var(--navy); border: 1px solid var(--rule); border-radius: 2px; box-shadow: 0 24px 64px #0b1b3a33; }
+.qr-dialog::backdrop { background: rgb(11 27 58 / 55%); backdrop-filter: blur(4px); }
+.qr-dialog-body { display: flex; flex-direction: column; align-items: center; gap: 20px; padding: 18px 24px 26px; }
+.qr-dialog-header { display: flex; align-items: center; justify-content: space-between; align-self: stretch; }
+.qr-dialog-header h2 { color: var(--indigo); letter-spacing: .08em; }
+.qr-dialog-close { width: 44px; height: 44px; margin-right: -12px; border: none; background: transparent; color: var(--navy); font-size: 28px; line-height: 1; }
+.qr-dialog-close:hover { color: var(--indigo); }
+.qr-code { display: block; width: 100%; height: auto; color: var(--navy); border: 1px solid var(--rule); }
+.qr-dialog-link { font-family: var(--font-code); font-size: 13px; transition: color .18s ease; }
+.qr-dialog-link:hover { color: var(--indigo); }
 
 @media (min-width: 1550px) { .hero { padding-block: 100px 85px; } }
 @media (max-width: 1100px) {
