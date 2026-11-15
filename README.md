@@ -4,4 +4,4 @@ A proposal for web apps to request specific open-weight models through the brows
 
 - [Visit webmodels.dev](https://webmodels.dev/)
 - [Read the explainer](https://github.com/kenzic/web-models-api-explainer)
-- [Comment on the proposal](https://github.com/WICG/proposals/issues/306)
+- [Comment on the proposal](https://github.com/webmachinelearning/proposals/issues/22)

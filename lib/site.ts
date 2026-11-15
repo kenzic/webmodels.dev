@@ -4,5 +4,5 @@ export const SITE_DESCRIPTION =
   "A proposed browser API for web apps that need a particular open-weight model. People control access; the browser runs it. Join the Web Models API discussion.";
 export const EXPLAINER_URL = "https://github.com/kenzic/web-models-api-explainer";
 export const API_REFERENCE_URL = `${EXPLAINER_URL}/blob/main/api-reference.md`;
-export const DISCUSSION_URL = "https://github.com/WICG/proposals/issues/306";
+export const DISCUSSION_URL = "https://github.com/webmachinelearning/proposals/issues/22";
 export const QR_CODE_URL = "https://www.webmodels.dev";
